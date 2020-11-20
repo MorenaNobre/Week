@@ -52,7 +52,7 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  Ipsum
+                  Conexão
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -62,9 +62,9 @@ const Navbar = ({ toggle }) => {
                   duration={700}
                   spy={true}
                   exact="true"
-                  // offset={-80}
+                  offset={-80}
                 >
-                  Dolor
+                  Clareza
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -74,9 +74,9 @@ const Navbar = ({ toggle }) => {
                   duration={700}
                   spy={true}
                   exact="true"
-                  // offset={-80}
+                  offset={-80}
                 >
-                  Sit
+                  Tipos de Comunicação
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -86,9 +86,9 @@ const Navbar = ({ toggle }) => {
                   duration={700}
                   spy={true}
                   exact="true"
-                  // offset={-80}
+                  offset={-80}
                 >
-                  Amet
+                  Poder
                 </NavLinks>
               </NavItem>
             </NavMenu>

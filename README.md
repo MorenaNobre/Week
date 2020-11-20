@@ -1,4 +1,4 @@
-<h1 align="center">React - Landing Page</h1>
+<h1 align="center">Comuni-K</h1>
 
 <p align="center">
   
@@ -12,7 +12,7 @@
 
 <br>
 
-<p align="center">Deploy <a href="https://reactlanding.netlify.app/" target="_blank">aqui!</a></p>
+<p align="center">Deploy <a href="https://comuni-k.netlify.app/" target="_blank">aqui!</a></p>
 
 <br>
 
@@ -34,7 +34,7 @@
 <br>
 
 <div align="center">
-  <img alt="react-landing-page" src="./public/images/react-landing.gif" width="100%">
+  <img alt="comuni-k" src="./public/images/comuni-k.gif" width="100%">
 </div>
 <br>
 
@@ -42,10 +42,10 @@
 <br>
 
 <p>
-    Landing Page em React - Essa Landing Page foi desenvolvida para um teste prático. Ela foi baseada em um tutorial do youtube.
+    Na Expansion Week da Rocketseat foi lançado um desafio: codar uma landing page do zero!
+    E o tema para essa landing page era a escolha de uma soft skill como um produto. Eu escolhi a comunicação. Acredito que essa seja a principal skill para qualquer pessoa que queira evoluir, não só no âmbito profissional como também no pessoal.
 </p>
 
-<p>Você pode encontrar o tutorial <a href="https://www.youtube.com/watch?v=Nl54MJDR2p8" target="_blank">aqui! </a> Divirta-se!</p>
 
 <br>
 

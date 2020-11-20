@@ -1,12 +1,6 @@
 import React from "react";
-import { animateScroll as scroll} from 'react-scroll'
-import {
-  FaFacebook,
-  FaInstagram,
-  FaLinkedin,
-  FaTwitter,
-  FaYoutube,
-} from "react-icons/fa";
+import { animateScroll as scroll } from "react-scroll";
+import { FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 import {
   FooterContainer,
   FooterWrap,
@@ -26,7 +20,7 @@ import {
 const Footer = () => {
   const toggleHome = () => {
     scroll.scrollToTop();
-  }
+  };
 
   return (
     <FooterContainer>
@@ -34,61 +28,84 @@ const Footer = () => {
         <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>Lorem Ipsum</FooterLinkTitle>
-              <FooterLink to="/">Lorem</FooterLink>
-              <FooterLink to="/">Ipsum</FooterLink>
-              <FooterLink to="/">Dolor</FooterLink>
-              <FooterLink to="/">Sit</FooterLink>
-              <FooterLink to="/">Amet</FooterLink>
+              <FooterLinkTitle>Links Úteis</FooterLinkTitle>
+              <FooterLink
+                to="//www.voitto.com.br/blog/artigo/comunicacao-verbal"
+                target="_blank"
+              >
+                Comunicação Verbal
+              </FooterLink>
+              <FooterLink
+                to="//blog.pitagoras.com.br/comunicacao-escrita/"
+                target="_blank"
+              >
+                Comunicação Escrita
+              </FooterLink>
+              <FooterLink
+                to="//www.ibccoaching.com.br/portal/coaching-e-psicologia/quais-os-sinais-e-tipos-de-linguagem-corporal/"
+                target="_blank"
+              >
+                Comunicação Corporal
+              </FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
-              <FooterLinkTitle>Lorem Ipsum</FooterLinkTitle>
-              <FooterLink to="/">Lorem</FooterLink>
-              <FooterLink to="/">Ipsum</FooterLink>
-              <FooterLink to="/">Dolor</FooterLink>
-              <FooterLink to="/">Sit</FooterLink>
-              <FooterLink to="/">Amet</FooterLink>
-            </FooterLinkItems>
-          </FooterLinksWrapper>
-          <FooterLinksWrapper>
-            <FooterLinkItems>
-              <FooterLinkTitle>Lorem Ipsum</FooterLinkTitle>
-              <FooterLink to="/">Lorem</FooterLink>
-              <FooterLink to="/">Ipsum</FooterLink>
-              <FooterLink to="/">Dolor</FooterLink>
-              <FooterLink to="/">Sit</FooterLink>
-              <FooterLink to="/">Amet</FooterLink>
-            </FooterLinkItems>
-            <FooterLinkItems>
-              <FooterLinkTitle>Lorem Ipsum</FooterLinkTitle>
-              <FooterLink to="/">Lorem</FooterLink>
-              <FooterLink to="/">Ipsum</FooterLink>
-              <FooterLink to="/">Dolor</FooterLink>
-              <FooterLink to="/">Sit</FooterLink>
-              <FooterLink to="/">Amet</FooterLink>
+              <FooterLinkTitle>Comunicadores</FooterLinkTitle>
+              <FooterLink
+                to="//www.instagram.com/thaissa.candella/?hl=pt-br"
+                target="_blank"
+              >
+                Thaíssa Candella
+              </FooterLink>
+              <FooterLink
+                to="//www.instagram.com/dorlyneto/?hl=pt-br"
+                target="_blank"
+              >
+                Dorly Neto
+              </FooterLink>
+              <FooterLink
+                to="//www.instagram.com/filipedeschamps/?hl=pt-br"
+                target="_blank"
+              >
+                Filipe Deschamps
+              </FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/" onClick={toggleHome}>Lorem</SocialLogo>
+            <SocialLogo to="/" onClick={toggleHome}>
+              Comuni-k
+            </SocialLogo>
             <WebsiteRigths>
-              Lorem © {new Date().getFullYear()} All rights reserved.
+              Comuni-k © {new Date().getFullYear()} Todos direitos reservados.
             </WebsiteRigths>
             <SocialIcons>
-              <SocialIconLink href="/" target="_blank" aria-label="Facebook">
-                <FaFacebook />
-              </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+              <SocialIconLink
+                href="//www.instagram.com"
+                target="_blank"
+                aria-label="Instagram"
+              >
                 <FaInstagram />
               </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Twitter">
+              <SocialIconLink
+                href="//www.twitter.com"
+                target="_blank"
+                aria-label="Twitter"
+              >
                 <FaTwitter />
               </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Youtube">
+              <SocialIconLink
+                href="//www.youtube.com"
+                target="_blank"
+                aria-label="Youtube"
+              >
                 <FaYoutube />
               </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Linkedin">
+              <SocialIconLink
+                href="//www.linkedin.com"
+                target="_blank"
+                aria-label="Linkedin"
+              >
                 <FaLinkedin />
               </SocialIconLink>
             </SocialIcons>

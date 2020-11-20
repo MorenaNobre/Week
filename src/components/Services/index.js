@@ -1,7 +1,7 @@
 import React from "react";
-import Icon1 from '../../icons/svg-1.svg'
-import Icon2 from '../../icons/svg-2.svg'
-import Icon3 from '../../icons/svg-3.svg'
+import Icon1 from '../../icons/svg-5.svg'
+import Icon2 from '../../icons/svg-4.svg'
+import Icon3 from '../../icons/svg-6.svg'
 import {
   ServicesContainer,
   ServicesH1,
@@ -15,30 +15,27 @@ import {
 const Services = () => {
   return (
     <ServicesContainer id="services">
-      <ServicesH1>Lorem Ipsum</ServicesH1>
+      <ServicesH1>Tipos de Comunicação</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1} />
-          <ServicesH2>lorem ipsum</ServicesH2>
+          <ServicesH2>Verbal</ServicesH2>
           <ServicesP>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor.
+            Comunicar-se com boa entonação, ritmo e pronúncia clara.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon2} />
-          <ServicesH2>lorem ipsum</ServicesH2>
+          <ServicesH2>Escrita</ServicesH2>
           <ServicesP>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor.
+            Redigir um texto claro, ou um email expondo ideias de forma assertiva.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3} />
-          <ServicesH2>lorem ipsum</ServicesH2>
+          <ServicesH2>Corporal</ServicesH2>
           <ServicesP>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor.
+            Sintonia entre comunicação verbal e corporal, se fazer entender.
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>
